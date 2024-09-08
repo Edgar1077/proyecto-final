@@ -3,45 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de Superhéroes</title>
+    <title>Tienda Virtual</title>
     <link rel="stylesheet" href="../proyecto-final/css/tienda.css">
 </head>
 <body>
-    <div class="tienda">
+    <header>
+        <div class="logo"><img src="../proyecto-final/img/logo.jfif" alt="logo"></div>
+        <div class="cart">
+            <img src="../proyecto-final/img/carrito-de-compras.png" alt="carrito">
+            <ul id="carrito-md"></ul>
+            <p>Total: $<span id="precio-total">0</span></p>
+            <button id="limpiar">Vaciar Carrito</button>
+        </div>
+    </header>
+
+    <section class="producto-lista">
         <div class="producto">
-            <img src="../proyecto-final/img/guante de Thanos.png" alt="Guante de Thanos">
-            <h2>Guante de Thanos</h2>
-            <p>$80.000</p>
-            <button class="boton">Add to Cart</button>
+            <img src="../proyecto-final/img/guante de Thanos.png" alt="guante">
+            <h3>Guante de Thanos</h3>
+            <p>$60.000</p>
+            <button class="carrito">Añadir al Carrito</button>
         </div>
         <div class="producto">
-            <img src="../proyecto-final/img/Wolverine.png" alt="Wolverine">
-            <h2>Wolverine</h2>
-            <p>$62.000</p>
-            <button class="boton">Add to Cart</button>
+            <img src="../proyecto-final/img/Wolverine.png" alt="garras">
+            <h3>Wolverine</h3>
+            <p>$45.000</p>
+            <button class="carrito">Añadir al Carrito</button>
         </div>
         <div class="producto">
-            <img src="../proyecto-final/img/Spider-Man.png" alt="Spider-Man">
-            <h2>Spider-Man</h2>
-            <p>$50.000</p>
-            <button class="boton">Add to Cart</button>
+            <img src="../proyecto-final/img/Spider-Man.png" alt="araña">
+            <h3>Spider-Man</h3>
+            <p>$56.000</p>
+            <button class="carrito">Añadir al Carrito</button>
         </div>
         <div class="producto">
-            <img src="../proyecto-final/img/dead-pool.png" alt="Deadpool">
-            <h2>Deadpool</h2>
+            <img src="../proyecto-final/img/dead-pool.png" alt="mascara">
+            <h3>Deadpool</h3>
             <p>$55.000</p>
-            <button class="boton">Add to Cart</button>
+            <button class="carrito">Añadir al Carrito</button>
         </div>
         <div class="producto">
-            <img src="../proyecto-final/img/black-panther.png" alt="Black Panther">
-            <h2>Black Panther</h2>
-            <p>$65.000</p>
-            <button class="boton">Add to Cart</button>
+            <img src="../proyecto-final/img/black-panther.png" alt="pantera">
+            <h3>Black Panther</h3>
+            <p>$60.000</p>
+            <button class="carrito">Añadir al Carrito</button>
         </div>
-    </div>
-    
+    </section>
+
     <footer>
-        <p>Made With Love By Frontend All Right Reserved</p>
+        <p>Made with love by Frontend. All Rights Reserved.</p>
+        <img src="../proyecto-final/img/facebook.PNG" alt="face">
+        <img src="../proyecto-final/img/instagram.png" alt="ins">
+        <img src="../proyecto-final/img/twitter.png" alt="twiter">
     </footer>
+
+    <script src="../j.s/script.js"></script>
 </body>
 </html>
